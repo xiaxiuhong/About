@@ -336,7 +336,7 @@ body {
   margin: 0 auto;
   position: relative;
 }
-.d_tab {
+/*.d_tab {
   height: 100%;
   width: 11.675rem;
   margin: 0 auto;
@@ -354,22 +354,30 @@ body {
   height: 100%;
   width: 11.675rem;
   float: left;
+}*/
+.rollPic .swiper-button-next{
+	background: url(../images/new_arrR.png) no-repeat;
+	right: 0;
 }
-.moveBtn {
+.rollPic .swiper-button-prev{
+  background: url(../images/new_arrL.png) no-repeat;
+  left: 0;
+}
+/*.moveBtn {
   display: inline-block;
   width: 0.225rem;
   height: 0.425rem;
   position: absolute;
   top: 105px;
-}
-.prev {
+}*/
+/*.prev {
   left: 0;
   background: url(../images/new_arrL.png) no-repeat;
 }
 .next {
   right: 0;
   background: url(../images/new_arrR.png) no-repeat;
-}
+}*/
 .newText {
   height: 1.15rem;
   text-align: center;
@@ -566,7 +574,15 @@ body {
   right: 0.25rem;
   bottom: 4rem;
 }
-.tabList {
+.interTab .swiper-pagination-bullet{
+		height: 0.475rem;
+ 		width: 0.475rem;
+		background: #AAE0FF;
+}
+.interTab .swiper-pagination-bullet-active{
+		background: #D98A2C;
+}
+/*.tabList {
   height: 1.025rem;
   width: 3.625rem;
   margin: 0 auto;
@@ -577,11 +593,11 @@ body {
   width: 0.475rem;
   margin: 0.275rem 0.125rem;
   border-radius: 50%;
-  background: #AAE0FF;
+  background:#AAE0FF;
 }
 .tabList > li.ac {
   background: #D98A2C;
-}
+}*/
 .ckFun {
   height: 13.925rem;
   width: 100%;
@@ -617,7 +633,6 @@ body {
   margin: 0 auto;
   overflow: hidden;
 }
-/*.fun_tab > ul {*/
 .funRoll ul{
   height: 10.75rem;
   width: 13.85rem;
@@ -626,31 +641,35 @@ body {
   left: 0;
   top: 0;
 }
-/*.fun_tab > ul li {*/
 .funRoll ul li{
   height: 10.75rem;
   width: 13.85rem;
   float: left;
 }
-/*.fun_tab li dt,
-.fun_tab li dd {*/
 .funRoll li dt,
 .funRoll li dd{
   float: left;
   height: 10.75rem;
   width: 6.6rem;
 }
-/*.fun_tab li dt {*/
 .funRoll li dt{
   margin-right: 0.65rem;
 }
-.moveBtnF {
+.funRoll .swiper-button-next{
+	background: url(../images/enter_arrR.png) no-repeat;
+	right: 0;
+}
+.funRoll .swiper-button-prev{
+	background: url(../images/enter_arrL.png) no-repeat;
+	left: 0;
+}
+/*.moveBtnF {
   display: inline-block;
   width: 0.475rem;
   height: 0.7rem;
   position: absolute;
   top: 210px;
-}
+}*/
 /*.prevF {
   left: 0;
   background: url(../images/enter_arrL.png) no-repeat;

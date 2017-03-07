@@ -20,7 +20,7 @@
 			)();
 			$(function(){
 				//slide("adPic",1,0,4);
-				MyTab("intTab",true);
+				//MyTab("intTab",true);
 				//slideFun("adPicFun",1,0);
 				$("#time").valueAsDate = new Date();
 			})
@@ -117,7 +117,7 @@
 					</div>
 				</div>-->
 				<!-- Swiper -->
-			    <div class="swiper-container rollPic" id="adpic">
+			    <div class="swiper-container rollPic">
 			    	<!--<div class="d_tab">-->
 				        <div class="swiper-wrapper">
 				            <div class="swiper-slide"><img src="include/images/new_pic.png" alt="图片1" /></div>
@@ -178,8 +178,7 @@
 					<span></span>
 				</div>
 				<!--选项卡-->
-				<div id="intTab" class="interTab">
-					<!--内容-->
+				<!--<div id="intTab" class="interTab">
 					<div class="tabCont">
 						<div class="tabItem">
 							<div class="doc_info">
@@ -205,7 +204,6 @@
 							<img src="include/images/inter01.png" alt="" />
 						</div>
 					</div>
-					<!--列表-->
 					<ul class="tabList">
 			            <li class="ac"></li>
 			            <li></li>
@@ -213,7 +211,50 @@
 			            <li></li>
 			            <li></li>
 			        </ul>
-				</div>
+				</div>-->
+				<!--**************************-->
+				<!-- Swiper -->
+			    <div class="swiper-container interTab">
+			        <div class="swiper-wrapper">
+			            <div class="swiper-slide">
+			            	<div class="tabItem">
+								<div class="doc_info">
+									<h3>周云<span>（中国）</span></h3>
+									<p>FID儿童齿科认证医师<br>MRC儿童肌功能训练认证医师<br>中华口腔医学会儿童口腔委员会会员</p>
+									<h5>擅长项目：</h5>
+									<p>儿童龋病、牙髓病及根尖周病、<br>MRC儿童肌功能正畸</p>
+									<a href="javascript:;">查看详情</a>
+								</div>
+								<span><img src="include/images/inter_zy02.png" alt="周云" /></span>
+								<span><img src="include/images/inter_zy01.png" alt="周云" /></span>
+							</div>
+			            </div>
+			            <div class="swiper-slide">
+			            	<img src="include/images/inter02.png" alt="" />
+			            </div>
+			            <div class="swiper-slide">
+			            	<img src="include/images/inter01.png" alt="" />
+			            </div>
+			            <div class="swiper-slide">
+			            	<img src="include/images/inter02.png" alt="" />
+			            </div>
+			            <div class="swiper-slide">
+			            	<img src="include/images/inter01.png" alt="" />
+			            </div>
+			        </div>
+			        <div class="swiper-pagination"></div>
+			    </div>
+			    <script>
+			    var swiper = new Swiper('.swiper-container', {
+			        pagination: '.swiper-pagination',
+			        paginationClickable: true,
+			        spaceBetween: 30,
+			        centeredSlides: true,
+			        autoplay:2500,
+			        autoplayDisableOnInteraction: false
+			    });
+			    </script>
+				<!--*************************-->
 			</section>
 			<!--寓教于乐部分-->
 			<section class="ckFun">
@@ -291,7 +332,6 @@
 			        <div class="swiper-button-next"></div>
 			        <div class="swiper-button-prev"></div>
 			    </div>
-			    <!--<script src="include/js/swiper.min.js"></script>-->
 			    <script>
 			    var swiper = new Swiper('.swiper-container', {
 			        pagination: '.swiper-pagination',
