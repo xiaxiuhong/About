@@ -330,11 +330,17 @@ body {
 .new_tit > span {
   background: url(../images/new_text02.png) no-repeat center;
 }
-.rollPic {
-  height: 6.025rem;
+.new_tab{
+	height: 6.025rem;
   width: 13.775rem;
   margin: 0 auto;
   position: relative;
+}
+.rollPic {
+  height: 6.025rem;
+  width: 11.675rem;
+  margin: 0 auto;
+  /*position: relative;*/
 }
 /*.d_tab {
   height: 100%;
@@ -355,13 +361,13 @@ body {
   width: 11.675rem;
   float: left;
 }*/
-.rollPic .swiper-button-next{
-	background: url(../images/new_arrR.png) no-repeat;
-	right: 0;
+.new_tab .swiper-button-next{
+	background: url(../images/new_arrR.png) no-repeat center;
+	right:0;
 }
-.rollPic .swiper-button-prev{
-  background: url(../images/new_arrL.png) no-repeat;
-  left: 0;
+.new_tab .swiper-button-prev{
+  background: url(../images/new_arrL.png) no-repeat center;
+  left:0;
 }
 /*.moveBtn {
   display: inline-block;
