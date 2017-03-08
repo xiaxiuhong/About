@@ -118,7 +118,8 @@
 				</div>-->
 				<!-- Swiper -->
 				<div class="new_tab">
-				    <div class="swiper-container rollPic swiper1">
+				    <div class="swiper-container rollPic">
+				    	<!--<div class="d_tab">-->
 					        <div class="swiper-wrapper">
 					            <div class="swiper-slide"><img src="include/images/new_pic.png" alt="图片1" /></div>
 					            <div class="swiper-slide"><img src="include/images/new_pic.png" alt="图片1" /></div>
@@ -126,13 +127,28 @@
 					            <div class="swiper-slide"><img src="include/images/new_pic.png" alt="图片1" /></div>
 					            <div class="swiper-slide"><img src="include/images/new_pic.png" alt="图片1" /></div>
 					        </div>
+				        <!--</div>-->
 				        <!-- Add Pagination -->
-				        <div class="swiper-pagination"></div>
+				        <!--<div class="swiper-pagination"></div>-->
 				        <!-- Add Arrows -->
 				    </div>
-				    <div class="swiper-button-next swiper-button-next1"></div>
-				    <div class="swiper-button-prev swiper-button-prev1"></div>
-			  	</div>
+				    <div class="swiper-button-next"></div>
+				    <div class="swiper-button-prev"></div>
+			    </div>
+			    <script src="include/js/swiper.min.js"></script>
+			    <script>
+			    var swiper = new Swiper('.swiper-container', {
+			        pagination: '.swiper-pagination',
+			        nextButton: '.swiper-button-next',
+			        prevButton: '.swiper-button-prev',
+			        paginationClickable: true,
+			        spaceBetween: 30,
+			        centeredSlides: true,
+			        autoplay: 2500,
+			        autoplayDisableOnInteraction: false
+			    });
+			    </script>
+				<!--*****************************-->
 				<div id="newT" class="newText">【感恩答谢月】  2016感恩有你 ，2017一起前行！</div>
 				<a href="javascript:;" class="zxBtn">立即咨询</a>
 			</section>
@@ -198,8 +214,9 @@
 			            <li></li>
 			        </ul>
 				</div>-->
+				<!--**************************-->
 				<!-- Swiper -->
-			    <div class="swiper-container interTab swiper2">
+			    <div class="swiper-container interTab">
 			        <div class="swiper-wrapper">
 			            <div class="swiper-slide">
 			            	<div class="tabItem">
@@ -227,10 +244,19 @@
 			            	<img src="include/images/inter01.png" alt="" />
 			            </div>
 			        </div>
-			        <div class="swiper-pagination swiper-pagination2"></div>
-			        <div class="swiper-button-next swiper-button-next2"></div>
-				    <div class="swiper-button-prev swiper-button-prev2"></div>
+			        <div class="swiper-pagination"></div>
 			    </div>
+			    <script>
+			    var swiper = new Swiper('.swiper-container', {
+			        pagination: '.swiper-pagination',
+			        paginationClickable: true,
+			        spaceBetween: 30,
+			        centeredSlides: true,
+			        autoplay:2500,
+			        autoplayDisableOnInteraction: false
+			    });
+			    </script>
+				<!--*************************-->
 			</section>
 			<!--寓教于乐部分-->
 			<section class="ckFun">
@@ -273,38 +299,54 @@
 					</div>
 				</div>-->
 				<!-- Swiper -->
-			    <div class="swiper-container funRoll swiper3">
-			        <ul class="swiper-wrapper">
-			            <li class="swiper-slide">
-			            	<dl>
-								<dt>
-									<a href="javascript:;"><img src="include/images/enter_pic01.png" alt="图片1" /></a>
-									<a href="javascript:;"><img src="include/images/enter_pic03.png" alt="图片3" /></a>
-								</dt>
-								<dd>
-									<a href="javascript:;"><img src="include/images/enter_pic02.png" alt="图片3" /></a>
-									<a href="javascript:;"><img src="include/images/enter_pic04.png" alt="图片4" /></a>
-								</dd>
-							</dl>
-			            </li>
-			            <li class="swiper-slide">
-			            	<dl>
-								<dt>
-									<a href="javascript:;"><img src="include/images/enter_pic05.png" alt="图片5" /></a>
-									<a href="javascript:;"><img src="include/images/enter_pic07.png" alt="图片7" /></a>
-								</dt>
-								<dd>
-									<a href="javascript:;"><img src="include/images/enter_pic06.png" alt="图片6" /></a>
-									<a href="javascript:;"><img src="include/images/enter_pic08.png" alt="图片8" /></a>
-								</dd>
-							</dl>
-			            </li>
-			        </ul>
-                    <div class="swiper-pagination swiper-pagination3"></div>
+			    <div class="swiper-container funRoll">
+			    	<!--<div class="d_tab">-->
+				        <ul class="swiper-wrapper">
+				            <li class="swiper-slide">
+				            	<dl>
+									<dt>
+										<a href="javascript:;"><img src="include/images/enter_pic01.png" alt="图片1" /></a>
+										<a href="javascript:;"><img src="include/images/enter_pic03.png" alt="图片3" /></a>
+									</dt>
+									<dd>
+										<a href="javascript:;"><img src="include/images/enter_pic02.png" alt="图片3" /></a>
+										<a href="javascript:;"><img src="include/images/enter_pic04.png" alt="图片4" /></a>
+									</dd>
+								</dl>
+				            </li>
+				            <li class="swiper-slide">
+				            	<dl>
+									<dt>
+										<a href="javascript:;"><img src="include/images/enter_pic05.png" alt="图片5" /></a>
+										<a href="javascript:;"><img src="include/images/enter_pic07.png" alt="图片7" /></a>
+									</dt>
+									<dd>
+										<a href="javascript:;"><img src="include/images/enter_pic06.png" alt="图片6" /></a>
+										<a href="javascript:;"><img src="include/images/enter_pic08.png" alt="图片8" /></a>
+									</dd>
+								</dl>
+				            </li>
+				        </ul>
+			        <!--</div>-->
+			        <!-- Add Pagination -->
+			        <div class="swiper-pagination"></div>
 			        <!-- Add Arrows -->
-			        <div class="swiper-button-next swiper-button-next3"></div>
-			        <div class="swiper-button-prev swiper-button-prev3"></div>
+			        <div class="swiper-button-next"></div>
+			        <div class="swiper-button-prev"></div>
 			    </div>
+			    <script>
+			    var swiper = new Swiper('.swiper-container', {
+			        pagination: '.swiper-pagination',
+			        nextButton: '.swiper-button-next',
+			        prevButton: '.swiper-button-prev',
+			        paginationClickable: true,
+			        spaceBetween: 30,
+			        centeredSlides: true,
+			        autoplay: 2500,
+			        autoplayDisableOnInteraction: false
+			    });
+			    </script>
+				<!--*****************************-->
 			</section>
 			<!--自助挂号部分-->
 			<section class="ckSelf">
@@ -381,37 +423,4 @@
 			</section>
 		</div>
 	</body>
-</html>
-<script src="include/js/swiper.min.js"></script>
-<script>
-var swiper1 = new Swiper('.swiper1', {
-    //pagination: '.swiper-pagination',
-    nextButton: '.swiper-button-next1',
-    prevButton: '.swiper-button-prev1',
-    paginationClickable: true,
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: 2500,
-    autoplayDisableOnInteraction: false
-});
-var swiper2 = new Swiper('.swiper2', {
-    pagination: '.swiper-pagination2',
-    //nextButton: '.swiper-button-next2',
-    //prevButton: '.swiper-button-prev2',
-    paginationClickable: true,
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay:3000,
-    autoplayDisableOnInteraction: false
-});
-var swiper3 = new Swiper('.swiper3', {
-    //pagination: '.swiper-pagination3',
-    nextButton: '.swiper-button-next3',
-    prevButton: '.swiper-button-prev3',
-    paginationClickable: true,
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: 2500,
-    autoplayDisableOnInteraction: false
-});
-</script>
+</html>        

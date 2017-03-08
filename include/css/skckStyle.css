@@ -361,11 +361,11 @@ body {
   width: 11.675rem;
   float: left;
 }*/
-.new_tab .swiper-button-next{
+.new_tab .swiper-button-next1{
 	background: url(../images/new_arrR.png) no-repeat center;
 	right:0;
 }
-.new_tab .swiper-button-prev{
+.new_tab .swiper-button-prev1{
   background: url(../images/new_arrL.png) no-repeat center;
   left:0;
 }
@@ -661,11 +661,11 @@ body {
 .funRoll li dt{
   margin-right: 0.65rem;
 }
-.funRoll .swiper-button-next{
+.funRoll .swiper-button-next3{
 	background: url(../images/enter_arrR.png) no-repeat;
 	right: 0;
 }
-.funRoll .swiper-button-prev{
+.funRoll .swiper-button-prev3{
 	background: url(../images/enter_arrL.png) no-repeat;
 	left: 0;
 }
